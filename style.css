@@ -128,26 +128,26 @@
 }
 #services .boxed .firstboxed:nth-child(1) {
   background-color: rgb(252, 135, 1);
-  height: 140px;
+  height: 150px;
   width: 200px;
   text-align: center;
 }
 
 #services .boxed .secondboxed:nth-child(2) {
   background-color: rgb(252, 135, 1);
-  height: 140px;
+  height: 150px;
   width: 200px;
   text-align: center;
 }
 #services .boxed .thirdboxed:nth-child(3) {
   background-color: rgb(252, 135, 1);
-  height: 140px;
+  height: 150px;
   width: 210px;
   text-align: center;
 }
 #services .boxed .fourboxed:nth-child(4) {
   background-color: rgb(252, 135, 1);
-  height: 140px;
+  height: 150px;
   width: 200px;
   text-align: center;
 }
@@ -194,4 +194,7 @@
 
 #contactme {
   padding-left: 38em;
+}
+
+@media screen and (max-width: 960) {
 }
