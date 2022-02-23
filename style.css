@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto:wght@300;500&display=swap');
+
+* {
+  font-family: 'Roboto';
+  padding: 0px;
+  left: auto;
+}
+
+#address a {
+  float: right;
+  padding: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+#address a:hover {
+  color: rgb(119, 67, 136);
+}
+
+#address {
+  background-image: url('BG.jpg');
+}
+#address h1 {
+  float: left;
+  padding: 0.4rem;
+  position: relative;
+  margin-left: 30px;
+  color: #ffdb58;
+  cursor: pointer;
+}
+#address img {
+  padding-top: 5em;
+  display: block;
+  background-image: url('splash.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#address .names {
+  color: black;
+}
+#names .name {
+  top: 40%;
+  left: 60%;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  color: whitesmoke;
+}
+#names .post {
+  top: 50%;
+  left: 60%;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+#names button {
+  border: none;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 15px 31px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+  transform: translate(477%, -350%);
+  background-color: rgb(252, 135, 1);
+  box-shadow: 3px;
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+#myself {
+  background-color: grey;
+}
+#myself img {
+  margin: 50px;
+  border-radius: 10px;
+}
+
+#myself .me {
+  top: 120%;
+  left: 60%;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  color: whitesmoke;
+  line-height: 20px;
+}
+#myself .hello {
+  top: 140%;
+  left: 60%;
+  position: absolute;
+  text-align: initial;
+  transform: translate(-47%, -150%);
+  color: whitesmoke;
+  line-height: 20px;
+}
+
+#myself .intro {
+  top: 160%;
+  left: 60%;
+  position: absolute;
+  text-align: initial;
+  transform: translate(-18%, -100%);
+  color: whitesmoke;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+#services {
+  height: 500px;
+  background-image: url('BG.jpg');
+}
+#services h1 {
+  font-size: 45px;
+  font-weight: bolder;
+  margin: 0;
+  padding: 45px;
+  color: whitesmoke;
+}
+#services .boxed {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  box-sizing: border-box;
+  margin: 120px;
+  color: whitesmoke;
+}
+#services .boxed .firstboxed:nth-child(1) {
+  background-color: rgb(252, 135, 1);
+  height: 140px;
+  width: 200px;
+  text-align: center;
+}
+
+#services .boxed .secondboxed:nth-child(2) {
+  background-color: rgb(252, 135, 1);
+  height: 140px;
+  width: 200px;
+  text-align: center;
+}
+#services .boxed .thirdboxed:nth-child(3) {
+  background-color: rgb(252, 135, 1);
+  height: 140px;
+  width: 210px;
+  text-align: center;
+}
+#services .boxed .fourboxed:nth-child(4) {
+  background-color: rgb(252, 135, 1);
+  height: 140px;
+  width: 200px;
+  text-align: center;
+}
+#services .boxed .firstboxed {
+  box-sizing: border-box;
+  box-shadow: 20px;
+  border-radius: 10px;
+}
+#services .boxed .secondboxed {
+  box-sizing: border-box;
+  box-shadow: 20px;
+  border-radius: 10px;
+}
+#services .boxed .thirdboxed {
+  box-sizing: border-box;
+  box-shadow: 20px;
+  border-radius: 10px;
+}
+#services .boxed .fourboxed {
+  box-sizing: border-box;
+  box-shadow: 20px;
+  border-radius: 10px;
+}
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: url('BG.jpg');
+  background-repeat: no-repeat;
+  color: whitesmoke;
+}
+#contact #arrow {
+  color: rgb(252, 135, 1);
+}
+
+#contact h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(252, 135, 1);
+}
+
+#contactme {
+  padding-left: 38em;
+}
